@@ -1,0 +1,121 @@
+
+    *{
+        margin:0;
+        padding:0;
+       }
+        .navbar
+        {
+            display: inline-flex;
+            background-color: #CD5C5C;
+            align-items: center;
+            height:7vh;
+            width: 100%;
+        }
+        p{
+            margin: 5px;
+            float: left; 
+            font-size: 5vh;  
+          } 
+          #button
+          {
+            margin-left:auto; 
+          }
+         button{
+            font-size : 3vh;
+            width:auto;
+            height:6vh;
+            border:0.2vw solid black; 
+            margin-top: 0.5vh;
+           border-radius: 5px;
+           margin-right: 1vw;
+         } 
+        
+         .btn
+         {
+            font-size : 3vh;
+            width:auto;
+            height:6vh;
+            border:0.2vw solid black; 
+            margin-top: 0.5vh;
+            background-color: #CD5C5C;
+           margin-right: 1vw; 
+           border-radius: 5px;
+         } 
+
+         a{
+    text-decoration: none;
+    color:rgb(41, 41, 49);
+    }
+
+
+.hide
+{
+    visibility: hidden;
+}
+.show
+{
+    visibility: visible; 
+}
+.details{
+    margin-right: 2vw;
+    display: inline;
+   
+}
+.details h4{
+    font-size: 3vh;
+    color: rgb(11, 12, 12);
+}
+
+
+#cartproducts
+{
+    display:grid;
+    width:100%;
+    grid-template-columns: 1fr;
+    grid-gap:5px;
+   
+}
+.cartproductitem
+{
+    margin-right:4vw;
+    margin-left:4vw ;
+    margin-top: 0.4vw;
+  border-radius: 5px;
+  border: 1px solid black;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+
+  
+}
+.productname 
+{
+    margin: 10px;
+    display: inline;
+}
+.buttongroup
+{
+    margin-left: auto;
+    display: inline; 
+}
+#myimg
+{
+    display:inline;
+   height:120px;
+   width:150px;
+}
+
+input{
+    margin: 5px;
+}
+.quantity
+{
+    margin-right:2vw;
+    margin-left: auto;
+}
+.quantity button
+{
+    padding: 0.7vw;
+    font-size:2vw;
+}
+    

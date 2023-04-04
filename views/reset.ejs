@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+</head>
+<body>
+
+    <p><%= error %> </p>
+    <div>
+
+   
+   <form  method="post" action="/reset">
+    <h4> The password has to be</h4>
+    <ul>
+<li>Minimum 8 Character Long</li>
+<li>one Uppercase letter at least</li>
+<li>one lowercase letter at least</li>
+<li>one number</li>
+    </ul>
+   
+    <input type="password"  id="newpass"  name="newpass" placeholder="new password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+    <input type="password"  id="conformpass"  name="conformpass" placeholder="conform password">
+    <input type="submit" class="forgot" id="signsubmit" value="Update Password">
+
+   </form> 
+</div>
+
+</body>
+</html>

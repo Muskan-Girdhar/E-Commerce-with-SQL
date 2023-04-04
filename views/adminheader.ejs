@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin:0;
+        padding:0;
+       }
+        .navbar
+        {
+            display: inline-flex;
+            background-color: rgb(49, 171, 192);
+            align-items: center;
+            height:7vh;
+            width: 100%;
+        }
+        p{
+            margin-top: 5px;
+            float: left; 
+            font-size : 5vh;
+             color:black;
+         display: inline;
+        align-items: flex-start;
+        text-shadow: 2px 2px whitesmoke;
+
+          } 
+         #button{
+            margin-top: 5px;
+           margin-left:auto; 
+           margin-right: 2vw;
+           color:rgb(41, 41, 49);
+           
+         } 
+         button
+         {
+            font-size: larger; 
+            
+            
+         }
+        
+            
+         a{
+    text-decoration: none;
+    color:rgb(41, 41, 49);
+}
+    </style>
+</head>
+<body>
+<div class="navbar">
+ <p> Welcome <%= loginuser %></p>
+ <div id="button">
+    <button><a href="/editproduct">EditProducts</a></button>
+    <button><a href="/addproduct">AddProducts</a></button>
+    <button><a href="/root">logout</a></button>
+    <button ><a href="/reset">ChangePassword</a></button>
+    <button><a href="/cart">MyCart</a></button>
+ </div>
+</div>
+
+
+</body>
+</html>

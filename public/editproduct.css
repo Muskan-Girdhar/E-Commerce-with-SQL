@@ -1,0 +1,131 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#products
+{
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap:1vw;
+    padding:2rem;
+
+}
+.productitem
+{
+    padding:5px;
+    /* background-color: aliceblue; */
+    border-radius: 5px;
+    border: 1px solid black;
+    width: fit-content;
+}
+.myimage
+{
+    margin-left:7rem;
+    display:inline;
+    height:220px;
+    width:250px;
+}
+.btn
+{
+    background-color:rgb(49, 171, 192) ;
+    padding:0.3rem;
+    border-radius: 5px;
+    margin-right:1vw;
+}
+.buttongroup
+{
+   padding-top:1rem;
+   padding-left: 10rem;
+
+}
+
+input[type="submit"]
+{
+ font-size:larger;
+ width:auto;
+ padding-bottom:1vh;
+ height:5.5vh
+}
+
+
+
+
+
+div form input
+{
+    /* display:block; */
+   
+    margin-right: 10px;
+    height: 4vh;
+    width: 20vw; 
+}
+label{
+    padding:10px;
+    margin:5px;
+    font-size: 1.5em;
+    display:inline;
+}
+input[type='text']
+{
+    float: right;
+    display:inline;
+    width:16em;
+}
+input[type='file']
+{
+    float: right;
+    display:inline;
+    margin-right: 0vw;
+
+}
+
+.group
+{
+    display: block;
+}
+
+.navbar
+        {
+            display: block;
+            background-color: rgb(49, 171, 192);
+            align-items: center;
+            height:7vh;
+            width: 100%;
+        }
+        p{
+            margin-top: 5px;
+            margin-left: 1vw;
+           
+            float: left; 
+            font-size : 5vh;
+             color:black;
+         display: inline;
+        align-items: flex-start;
+        text-shadow: 2px 2px whitesmoke;
+
+          } 
+         #button{
+            margin-top: 5px;
+           margin-left:auto; 
+         float:right;
+         margin-right: 1vw;
+           color:rgb(41, 41, 49);
+           
+         } 
+         button
+         {
+            font-size: larger; 
+            height:5vh;
+            border-radius: 5px;
+            
+            
+         }
+        
+            
+         a{
+    text-decoration: none;
+    color:rgb(41, 41, 49);
+}

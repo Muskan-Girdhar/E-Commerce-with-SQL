@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./addproduct.css">
+</head>
+<body>
+    
+    
+    <p id="text"><%= error %></p>
+    <div>
+
+    <form   class= login method="POST" onsubmit="return validation()" action="/addproduct" enctype="multipart/form-data">
+
+        <div class="group">
+        <label for="pname">  Product Name:</label>
+        <input type="text"  id="pname" name="pname"  >
+        </div>
+        <div class="group">
+        <label for="pdescription">  Product Description:</label>
+        <input type="text" id="pdescription"  name="pdescription" >
+    </div>
+    <div class="group">
+        <label for="pprice">  Product price:</label>
+        <input type="text" id="pprice" name="pprice" >
+    </div>
+    <div class="group">
+        <label for="pquantity">  Product quantity:</label>
+        <input type="text"  id='pquantity' name="pquantity" >
+    </div>
+    <div class="group"> 
+        <label for="pimage">  Product image:</label>
+        <input type="file" id="pimage" name="pimage"  value="clickhere" >
+    </div>
+        <input type="submit" value="submit">
+      </form>
+    </div>
+    <script src="./addproduct.js"></script>
+</body>
+</html>
